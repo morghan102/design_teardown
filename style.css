@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 131px;
+    background: gray;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+header nav li {
+    height: 115px;
+    width: 100%;
+    background: darkgray;
+    /* align-self: center; */
+}
